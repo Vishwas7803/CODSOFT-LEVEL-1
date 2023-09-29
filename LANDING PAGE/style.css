@@ -1,0 +1,121 @@
+* {
+    margin:0;
+    padding:20;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(mm.jpg);
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    padding-right: 7%;
+    padding-left: 3%;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    padding-left: 410px;
+}
+nav ul li {
+    display: inline-block;;
+    list-style: none;
+    margin: 0 8px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    color: #f16d09;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #8aeb0c;
+    font-style: italic;
+}
+.btn1 {
+    background: #ecd9d9;
+    background-size: 200% auto;
+    margin-left: 55px;
+    text-align: center;
+    color: #222;
+    padding: 8px 25px;
+    border:none;
+    font-style: italic;
+    outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position 0.5s;
+}
+.content {
+    margin-top: 100px;
+    font-style: italic;
+    position:relative;
+    text-align: center;
+    text-transform:uppercase;
+    color: #5eff08;
+}
+h1 {
+    font-size: 130px;
+    font-style:italic;
+    font-weight: 400;
+    line-height: .8em;
+}
+span.txt {
+    color: #4ff707;
+    font-size: 80px;
+}
+.btn2 {
+    background: linear-gradient(to right, transparent 50%, #ffffff 50%);
+    background-size: 300% auto;
+    background-position: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 15px 45px;
+    color: #e37302;
+    font-style: italic;
+    outline: none;
+    border: 6px solid #f4f4f4;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+.btn2:hover {
+    background-position: right;
+    color: #1b1b1b;
+}
+.social-media {
+    margin-top: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.fa {
+    color: #896363;
+    background-color: #14d0d0;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 10px;
+}
+.fa:hover {
+    transform: scale(1.2);
+    color: #ec0000ea;
+    background: none;
+    transition: all .5s;
+}
